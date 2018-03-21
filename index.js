@@ -23,6 +23,10 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittens = kittens.push(`${name}`);
+  var kittens = kittens.push(`${name}`);
   return kittens;
+}
+
+function prependKitten(name) {
+  var kittens = kittens.
 }
