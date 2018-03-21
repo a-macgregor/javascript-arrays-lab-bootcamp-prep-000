@@ -34,6 +34,6 @@ function appendKitten(name) {
 
 //6 
 function prependKitten(name) {
-  prependKitten = [`${name}`);
-  return kittens;
+  var prependKitten = [`${name}`, ...kittens];
+  return prependKitten;
 }
