@@ -37,3 +37,8 @@ function prependKitten(name) {
   var prependKitten = [`${name}`, ...kittens];
   return prependKitten;
 }
+
+//7 
+function removeLastKitten() {
+  kittens.length
+}
