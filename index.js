@@ -28,5 +28,5 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var kittens = kittens.
+  var kittens = kittens.upshift
 }
